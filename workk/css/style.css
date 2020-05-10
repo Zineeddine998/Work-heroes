@@ -1,0 +1,138 @@
+:root {
+    --color1:#323232;
+    --color2:#ff1e56;
+    --color3:#00005c;
+    --color4:#6a097d;
+    --color5:#c060a1;
+    --color6:#142850;
+    --color7:#27496d;
+  }
+
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+body {
+  background-color: var(--color6);
+  font-family: 'DM Mono', monospace;
+
+  }
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 1% auto;
+    width: 80%;
+    height: 20%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    position: relative;
+    border-style: solid;
+    background-color:var(--color7);
+ 
+  }
+  
+  .card .card_image {
+    width: 5em;;
+    height: 5em;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+   transform: translate(-50%, -50%);
+    
+    
+  }
+  .card_title {
+      padding-left: 19%;
+      padding-top: 2%;
+  }
+  .card_description {
+    padding-left: 19%;
+    font-size: 0.8em;
+    transform: translate(0%, -30%);
+    
+}
+.card_tags {
+    padding-left: 19%;
+    font-size: 0.8em;
+    
+}
+  
+  .card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+    
+  }
+  h1 ,h2, h3, h4, h5, p{
+         color: white;
+  }
+
+  ins {
+    background: #83d5a8;
+    height: auto;
+    border-radius: .3em;
+    display: inline; 
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+   margin-top: 0.3em;
+   margin-bottom:0.3em;
+  }
+  ins2 {
+    background: #c060a1;
+    height: auto;
+    border-radius: .3em;
+    display: inline; 
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+   margin-top: 0.3em;
+   margin-bottom:0.3em;
+  }
+  ins3 {
+    background: #fa9191;
+    height: auto;
+    border-radius: .3em;
+    display: inline; 
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+   margin-top: 0.3em;
+   margin-bottom:0.3em;
+  }
+  ins4 {
+    background: #0779e4;
+    height: auto;
+    border-radius: .3em;
+    display: inline; 
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+   margin-top: 0.3em;
+   margin-bottom:0.3em;
+  }
+  ins, del, ins2, ins3, ins4{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 .3em;
+  }
