@@ -1,0 +1,17 @@
+{
+  "name": "workheroes",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "fs": "14.2.0 ",
+    "url": "14.2.0",
+    "http": "14.2.0 ",
+    "https": "14.2.0 "
+  },
+  "author": "Zinou899",
+  "license": "MIT",
+  "main": "app.js",
+  "description": ""
+}
